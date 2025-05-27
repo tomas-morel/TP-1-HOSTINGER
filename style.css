@@ -671,6 +671,7 @@ footer{
     .container-left{
         display: flex;
         flex-direction: column;
+        width: auto;
         
     }
 
@@ -853,6 +854,7 @@ footer{
         display: none;
         
     }
+    
 
     .hamb-menu-480_1024{
         margin: 30px;
@@ -872,14 +874,14 @@ footer{
         display: flex;
         flex-direction: column;
         padding: 62px 40px 80px;
-        
-        align-items: start;
+        justify-content: center;
     }
+
 
 
     h1{
         font-size: 28px;
-        min-width: 688px;
+        
     }
 
     .hero-image{
